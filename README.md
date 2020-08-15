@@ -1,2 +1,1 @@
-# dashapp
-Web application using Dash Plotly
+A Financial Dashboard For Stock Research
