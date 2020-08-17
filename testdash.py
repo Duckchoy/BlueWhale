@@ -7,6 +7,7 @@ import pandas_datareader as pdr
 import datetime
 
 app = dash.Dash()
+server = app.server
 
 app.layout = html.Div(children=[
     html.Div(children='''
