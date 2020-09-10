@@ -1,0 +1,24 @@
+._dash-loading {
+  /* The block below places the Loader at the center of the page */
+  position: fixed;
+  top:-100%;
+  right:-100%;
+  left:-100%;
+  bottom:-100%;
+  margin:auto;
+  z-index:0;
+  /* --- */
+  border: 8px solid #f3f3f3; /* Background color */
+  border-top: 8px solid #4582ec; /* Spinner color */
+  border-radius: 50%; /* make the spinner round */
+  width: 90px;
+  height: 90px;
+  text-indent: -9999em; /* Force the default 'Loading..' out of screen */
+  animation: spin 3s linear infinite; /* spinner takes 2s to complete cycle */
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
